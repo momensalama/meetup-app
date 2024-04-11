@@ -1,6 +1,5 @@
 import { computed, createApp } from 'vue'
 import { createPinia } from 'pinia'
-import PrimeVue from 'primevue/config'
 import 'primevue/resources/themes/aura-light-green/theme.css'
 import './assets/main.css'
 import App from './App.vue'
@@ -17,7 +16,6 @@ pinia.use(piniaPluginPersistedstate)
 
 app.use(pinia)
 app.use(router)
-app.use(PrimeVue)
 
 const store = useStore()
 
