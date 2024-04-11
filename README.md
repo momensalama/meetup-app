@@ -6,6 +6,9 @@ This is a basic meetup app that allows users to sign in, sign up, create meetups
 
 Click on the link to [see the live demo](https://nuxtfoodapp-tau.vercel.app).
 
+![main page](/public/main%20page.png)
+
+
 ## Setup
 
 To get started with the project, follow these steps:
