@@ -4,7 +4,7 @@ This is a basic meetup app that allows users to sign in, sign up, create meetups
 
 ## Live Demo
 
-Click on the link to [see the live demo](https://nuxtfoodapp-tau.vercel.app).
+Click on the link to [see the live demo](https://vue-meetup-app.vercel.app).
 
 ![main page](/public/main%20page.png)
 
