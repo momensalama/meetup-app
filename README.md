@@ -1,39 +1,49 @@
-# meetup-app
+# Meetup App
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a basic meetup app that allows users to sign in, sign up, create meetups, and register for meetups.
 
-## Recommended IDE Setup
+## Live Demo
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Click on the link to [see the live demo](https://nuxtfoodapp-tau.vercel.app).
 
-## Type Support for `.vue` Imports in TS
+## Setup
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+To get started with the project, follow these steps:
 
-## Customize configuration
+1. Clone the repository:
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+   ```
+   git clone https://github.com/momensalama/meetup-app
+   ```
 
-## Project Setup
+2. Install the dependencies:
 
-```sh
-npm install
-```
+   ```
+   npm install
+   ```
 
-### Compile and Hot-Reload for Development
+3. Change to the project directory:
 
-```sh
-npm run dev
-```
+   ```
+   cd meetup-app
+   ```
 
-### Type-Check, Compile and Minify for Production
+4. Run the development server:
 
-```sh
-npm run build
-```
+   ```
+   npm run dev
+   ```
 
-### Lint with [ESLint](https://eslint.org/)
+## Main Functionalities
 
-```sh
-npm run lint
-```
+- Authentication (sign in and sign up)
+- CRUD (create, read, update, and delete) operations for meetups
+- Registering for meetups
+
+## Packages
+
+The following packages are used in this project:
+
+- **pinia**: State management for Vue.js
+- **supabase**: Serverless backend
+- **kalimahapps/vue-icons**: Icon library for Vue.js
