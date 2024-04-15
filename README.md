@@ -42,6 +42,8 @@ To get started with the project, follow these steps:
 - CRUD (create, read, update, and delete) operations for meetups
 - Registering for meetups
 
+## stack
+vue.js, pinia
 ## Packages
 
 The following packages are used in this project:
